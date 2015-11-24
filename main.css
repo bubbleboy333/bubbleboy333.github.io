@@ -8,3 +8,7 @@
   border: 3px solid white;
   width: 500px;
 }
+
+.navbar navbar-default {
+  margin-bottom: 0px;
+}

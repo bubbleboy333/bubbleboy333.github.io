@@ -9,6 +9,10 @@
   width: 500px;
 }
 
+.jumbotron a {
+  color: #5BC0DE;
+}
+
 .navbar {
   margin-bottom: 0px;
 }

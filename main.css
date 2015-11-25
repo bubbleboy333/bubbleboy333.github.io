@@ -14,6 +14,10 @@
   color: #5BC0DE;
 }
 
+.about-text h4 {
+  border: 3px solid black;
+}
+
 .navbar {
   margin-bottom: 0px;
 }

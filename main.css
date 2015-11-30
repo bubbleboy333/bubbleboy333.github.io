@@ -25,3 +25,8 @@
 .about-header h2 {
 	text-align: center;
 }
+
+.triangle img {
+	max-width: 50%;
+	height: auto;
+}

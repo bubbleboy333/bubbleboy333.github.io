@@ -1,2 +1,2 @@
-# Andrew-Rexroth-Personal-website
-Website for Andrew Rexroth
+# Andrew-Rexroth-Personal-Website
+Personal Website for Andrew Rexroth

@@ -1,5 +1,5 @@
 var main = function() {
-	$('.dropdown-toggle').click(function() {
+	$('.dropdown').click(function() {
 		$(this).collapse('toggle');
 	});
 };

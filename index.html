@@ -1,77 +1,290 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Case</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+  Miniport by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Andrew Rexroth</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/time2color.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+  </head>
+  <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="http://andrewrexroth.me">Andrew Rexroth</a>
-    </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Nav -->
+      <nav id="nav">
+        <ul class="container">
+          <li><a href="#top">Top</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><p id="time"> </p></li>
+        </ul>
+      </nav>
 
-<div class="jumbotron">
-    <div class="container">
-      <h1>Andrew Rexroth</h1>
-      <p>This Website is a <strong>Work in Progress</strong></p>
-      <p>Test of git and domain for personal website of Andrew Rexroth</p>
-      <br>
-      <h2>More complete version can be found <a href="https://www.umich.edu/~arexroth">here</a></h2>
-    </div><!-- /.container -->
-  </div><!-- /.jumbotron -->
-  
-  <div class="about-header" id="about">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Things I am involved in.</h2>
+    <!-- Home -->
+      <div class="wrapper style1 first">
+        <article class="container" id="top">
+          <div class="row">
+            <div class="4u">
+              <span class="image fit"><img src="images/Andrew_Rexroth.jpg" alt="" /></span>
+            </div>
+            <div class="8u">
+              <header>
+                <h1>Hi. I'm <strong>Andrew Rexroth</strong>.</h1>
+              </header>
+              <p>I am a Junior at the University of Michigan working towards a B.S in Computer Science</p>
+              <a href="#work" class="button big scrolly">Learn about what I do</a>
+            </div>
+          </div>
+        </article>
       </div>
-    </div><!-- /.row -->
 
-    <div class="about-text">
-      <div class="row">
-        <div class="col-md-6" id="triangle">
-            <h3>University of Michigan Chapter of Triangle Fraternity</h3>
-            <a href="http://www.triangleumich.com/"><img src="/images/Delta_T.jpg"/></a>
-        </div>
-        <div class="col-md-6">
-          <h3>Greek Life Sustainability Team (GLiST)</h3>
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.about-text -->
-  </div><!-- /.about-header -->
+    <!-- Work -->
+      <div class="wrapper style2">
+        <article id="work">
+          <header>
+            <h2>Here's all the stuff I'm involved in.</h2>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="4u">
+                <section class="box style1">
+                  <span class="icon featured fa-heart"></span>
+                  <h3>Dance Marathon</h3>
+                  <p>Student-run non-profit dedicated to raising funds and awareness for pediatric rehabilitation programs at C.S. Mott Children's Hospital<br><a href="http://dmum.org/">DMUM Homepage</a></p>
+                </section>
+              </div>
+              <div class="4u">
+                <section class="box style1">
+                  <span class="icon featured fa-users"></span>
+                  <h3>Triangle Fraternity</h3>
+                  <p>I am a member of the Michigan chapter of Triangle Fraternity. Triangle Fraternity is a Social Fraternity for Engineers, Scientists, & Architects.<br><a href="https://http://triangleumich.com/home">UofM Triangle Homepage</a></p>
+                </section>
+              </div>
+              <div class="4u">
+                <section class="box style1">
+                  <span class="icon featured fa-recycle"></span>
+                  <h3>Greek Life Sustainability</h3>
+                  <p>Greek Life Sustainability Team seeks to implement innovative sustainability programs in Greek houses at the University of Michigan.<br><a href="https://maizepages.umich.edu/organization/glist">GLiST Homepage</a></p>
+                </section>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <h2>Resume and Experience</h2>
+            <p><a href="files/Andrew_Rexroth_Resume.pdf">Check out my resume.</a></p>
+            <a href="#portfolio" class="button big scrolly">See some of my recent work</a>
+          </footer>
+        </article>
+      </div>
 
-  <div id="end">
-    <h5>click this <button type="button" class="btn btn-primary-outline" id="end-button">button</button> and your words will appear below</h5>
-    <p></p>
-  </div>
-  
-<div class="container">
-  <h3>Andrew Rexroth</h3>
-  <p>Example website for Andrew Rexroth</p>
-</div>
+    <!-- Portfolio -->
+      <div class="wrapper style3">
+        <article id="portfolio">
+          <header>
+            <h2>Here are some of the things I've been up to recently.</h2>
+            <p>These are some things that I have done for class or on my own.</p>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="4u">
+                <article class="box style2">
+                  <a href="#" class="image featured"><img src="images/schedulizer_preview.jpg" alt="" /></a>
+                  <h3><a href="#">Web Schedulizer</a></h3>
+                  <p>In my Elementary Programming class our final project was to create an online resource for students to plan out and schedule classes. <br><a href="https://umichwebschedulizer.herokuapp.com/">Check it out!</a></p>
+                </article>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <span class="icon featured fa-clock-o"></span>
+                  <!--<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>-->
+                  <h3><a href="#">Time to Color</a></h3>
+                  <p>A simple Javascript function that converts the time into a Hexidecimal number for the color of the Navigation Bar and Wrapper of the webpage.</p>
+                </article>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                  <h3><a href="#">Lorem ipsum</a></h3>
+                  <p>Ornare nulla proin odio consequat.</p>
+                </article>
+              </div>
+            </div>
+            <!--
+            <div class="row">
+              <div class="4u">
+                <article class="box style2">
+                  <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                  <h3><a href="#">Tempus dolore</a></h3>
+                  <p>Ornare nulla proin odio consequat.</p>
+                </article>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+                  <h3><a href="#">Feugiat aliquam</a></h3>
+                  <p>Ornare nulla proin odio consequat.</p>
+                </article>
+              </div>
+              <div class="4u">
+                <article class="box style2">
+                  <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+                  <h3><a href="#">Sed amet ornare</a></h3>
+                  <p>Ornare nulla proin odio consequat.</p>
+                </article>
+              </div>
+            </div>
+          -->
+          </div>
+          <footer>
+            <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+            <a href="#contact" class="button big scrolly">Get in touch with me</a>
+          </footer>
+        </article>
+      </div>
 
-</body>
+    <!-- Contact -->
+      <div class="wrapper style4">
+        <article id="contact" class="container 75%">
+          <header>
+            <h2>Any comments or questions?</h2>
+            <p>Feel free to contact me.</p>
+          </header>
+          <div>
+            <div class="row">
+                  <div class="3u">&nbsp;</div>
+                  <div class="6u">
+                    <!-- Contacts -->
+                    <section class="footer-two">
+                      <div class="feature-list feature-list-small">
+                        <div>
+                          <div class="row">
+                            <div class="6u">
+                              <section>
+                                <h3 class="fa fa-home">Mailing Address</h3>
+                                <p>
+                                  1501 Washtenaw Ave.<br/>
+                                  Ann Arbor, MI 48104 
+                                </p>
+                              </section>
+                            </div>
+                            <div class="6u">
+                              <section>
+                                <ul class="social">
+                                  <h3 class="fa fa-comment">Social</h3><br/>
+                                    <li><a href="https://www.facebook.com/andrew.rexroth.37" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                    <li><a href="https://www.linkedin.com/pub/andrew-rexroth/ab/910/39a/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://github.com/bubbleboy333" class="icon fa-github"><span class="label">Github</span></a></li>
+                                </ul>
+                              </section>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="6u">
+                              <section>
+                                <h3 class="fa fa-envelope">Email</h3>
+                                <p>arexroth@umich.edu</p>
+                              </section>
+                            </div>
+                            <div class="6u">
+                              <section>
+                                <h3 class="fa fa-phone">Phone</h3>
+                                <p>(248) 631-6614</p>
+                              </section>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+            <!--  <div class="row">
+              <div class="12u">
+                <form method="post" action="#">
+                  <div>
+                    <div class="row">
+                      <div class="6u">
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                      </div>
+                      <div class="6u">
+                        <input type="text" name="email" id="email" placeholder="Email" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="12u">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="12u">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="row 200%">
+                      <div class="12u">
+                        <ul class="actions">
+                          <li><input type="submit" value="Send Message" /></li>
+                          <li><input type="reset" value="Clear Form" class="alt" /></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>  -->
+            
+            <!--
+            <div class="row">
+              <div class="12u">
+                <hr />
+                <h3>Find me on ...</h3>
+                <ul class="social">
+                  <li><a href="https://www.facebook.com/andrew.rexroth.37" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                  <li><a href="https://www.linkedin.com/pub/andrew-rexroth/ab/910/39a/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                  
+                  
+                  <li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+                  <li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+                  <li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+                  <li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+                  <li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+                  <li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+                  <li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+                  <li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+                  <li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+                  <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                  <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+                  <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+                  <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+                  <li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                  
+                </ul>
+                <hr />
+              </div>
+            </div>
+            -->
+          </div>
+          <footer>
+            <ul id="copyright">
+              <li>&copy;2015 -- Andrew Rexroth</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+
+  </body>
 </html>

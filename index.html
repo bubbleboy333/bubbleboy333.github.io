@@ -1,315 +1,634 @@
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Andrew Rexroth</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/time2color.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
     <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-desktop.css" />
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
     </noscript>
   </head>
-  <body>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Andrew Rexroth</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#top">Top</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li> -->
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li> -->
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#footer">Contact</a></li>
+                <!-- <a id="popoverData" class="btn" href="#" data-content="Popover with data-trigger" rel="popover" data-placement="bottom" data-original-title="Title" data-trigger="hover">Popover with data-trigger</a> -->
+                <li class="nav-item"><a id="time" class="nav-link smooth-scroll" data-content="Current time converted to Hexidecimal Color and used to control page style" rel="popover" data-placement="bottom" data-trigger="hover"></a></li>
+                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" id="time"></a></li> -->
+                <!-- <li class="nav-item"><a class="btn btn-primary time-color-background-color" href="files/Andrew_Rexroth_Resume.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Resume</a></li> -->
+                <!-- TODO: link the above href to time2color explanation -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="red">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/mountain-background.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images/Andrew_Rexroth.jpeg" alt="Image"/></a></div>
+          <div class="h2 title">Andrew Rexroth</div>
+          <p class="category text-white">Software Engineer - Full-Stack/Back-End</p>
+          <!-- <a class="btn btn-primary smooth-scroll mr-2 time-color-background-color" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a> -->
+          <a class="btn btn-primary time-color-background-color" href="files/Andrew_Rexroth_Resume.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Resume</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/andrew-rexroth/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/bubbleboy333" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/andrew.rexroth.37" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/bubbleboy333/" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>
+              Hello! I am Andrew Rexroth. I am a Software Development Engineer graduating from the University of Michigan and working in Seattle, WA. While my experience and comfort is with Full-Stack Development a majority of that experience and where my interest lies is on the Back-End.
+            </br></br>
+              Outside of work, I have a wide range of hobbies centered around adventure and discovery, these being cooking, playing and listening to music, and hiking and camping. I like to dive deep to gain an understanding of the world around me while being naturally curious about new and innovative aspects of technology and life.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <!-- <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8">24</div>
+            </div> -->
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">arexroth [at] umich [dot] edu</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">(248) 631-6614</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Based in <b>Seattle, WA</b>, United States</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Languages:</strong></div>
+              <div class="col-sm-8">English - Proficient</br>French - Conversational</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- Nav -->
-      <nav id="nav">
-        <ul class="container">
-          <li><a href="#top">Top</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><p id="time"> </p></li>
-        </ul>
-      </nav>
+<!-- <div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title time-color-inverse-color">Professional Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
 
-    <!-- Home -->
-      <div class="wrapper style1 first">
-        <article class="container" id="top">
+<!-- <div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title time-color-inverse-color">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
           <div class="row">
-            <div class="4u">
-              <span class="image fit"><img src="images/Andrew_Rexroth.jpeg" alt="" /></span>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Recent Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Startup Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
             </div>
-            <div class="8u">
-              <header>
-                <h1>Hi. I'm <strong>Andrew Rexroth</strong>.</h1>
-              </header>
-              <p>I am a Sofware Development Engineer<br>
-                <b>This Website is a <i>WORK IN PROGRESS</i></b></p>
-              <a href="#work" class="button big scrolly">Learn about what I do</a>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Food Order Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Web Advertising Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
             </div>
           </div>
-        </article>
+        </div>
       </div>
-
-    <!-- Work -->
-      <div class="wrapper style2">
-        <article id="work">
-            <h1>Works of Andrew Rexroth</h1>
-        	<ul>
-        		<!-- <li><a href="http://www-personal.umich.edu/~arexroth/CryptoPrice/">CryptoCurrency Monitor</a></li> -->
-        		<li><a href="http://www-personal.umich.edu/~arexroth/eecs493-tower-defense/">Tower Defense Game</a></li>
-        		<li><a href="http://www-personal.umich.edu/~arexroth/WebBuild/">Roll-A-Ball Unity Game</a></li>
-        	</ul>
-          <header>
-            <h2>Here are the activities I'm involved in.</h2>
-          </header>
-          <div class="container">
-            <div class="row">
-              <!-- <div class="4u">
-                <section class="box style1">
-                  <span class="icon featured fa-heart"></span>
-                  <h3>Dance Marathon</h3>
-                  <p>Student-run non-profit dedicated to raising funds and awareness for pediatric rehabilitation programs at C.S. Mott Children's Hospital<br><a href="http://dmum.org/">DMUM Homepage</a></p>
-                </section>
-              </div> -->
-              <!-- <div class="4u">
-                <section class="box style1">
-                  <span class="icon featured fa-users"></span>
-                  <h3>Triangle Fraternity</h3>
-                  <p>I am an Alumni member of the Michigan chapter of Triangle Fraternity. Triangle Fraternity is a Social Fraternity for Engineers, Scientists, & Architects.<br><a href="https://triangleumich.com/">UofM Triangle Homepage</a></p>
-                </section>
-              </div> -->
-              <!-- <div class="4u">
-                <section class="box style1">
-                  <span class="icon featured fa-recycle"></span>
-                  <h3>Greek Life Sustainability</h3>
-                  <p>Greek Life Sustainability Team seeks to implement innovative sustainability programs in Greek houses at the University of Michigan.<br><a href="https://maizepages.umich.edu/organization/glist">GLiST Homepage</a></p>
-                </section>
-              </div> -->
+      <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Triangle Pattern</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Umbrella</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Cube Surface Texture</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Line</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
             </div>
           </div>
-          <footer id="resume">
-            <h2>Resume and Experience</h2>
-            <p><a href="files/Andrew_Rexroth_Resume.pdf">Check out my resume.</a></p>
-            <!-- <h3>Relevant Course Work</h3>
+        </div>
+      </div>
+      <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Wedding Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Beach Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Nature Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- <div class="card">
+  <div class="row">
+    <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+      <div class="card-body cc-experience-header">
+        <p>March 2016 - Present</p>
+        <div class="h5">CreativeM</div>
+      </div>
+    </div>
+    <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+      <div class="card-body">
+        <div class="h5">Front End Developer</div>
+        <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title time-color-inverse-color">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Jul. 2018 - Mar. 2021</p>
+            <div class="h5">Amazon.com, Inc</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Software Development Engineer</div>
             <ul>
-              <li><a href="#">MATH 115: Calc I</a></li>
-              <li>MATH 116: Calc II</li>
-              <li>EECS 183: Elementary Programming</li>
-              <li>EECS 203: Discrete Math</li>
-              <li>EECS 280: Programming and Data Structures</li>
-              <li>EECS 281: Data Structures and Algoritms</li>
-              <li>EECS 376: Foundations of Computer Science</li>
-            </ul> -->
-            <a href="#portfolio" class="button big scrolly">See some of my recent work</a>
-          </footer>
-        </article>
+              <li>Launched Amazon Day Program and Ship Option, Customers’ Weekly Packages Delivered on Single Day</li>
+              <li>Implemented Back-End Services to Offer Promotions to Customers</li>
+              <li>Updated Front-End Messaging and Function, Giving Customers Better Understanding of UX Actions</li>
+              <li>Mentored Intern to Return Employment Offer Through Successful Project Delivery and Launch</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>May 2017 - Aug. 2017</p>
+            <div class="h5">Amazon.com, Inc</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Software Development Engineer Intern</div>
+            <ul>
+              <li>Developed Framework for Automating Mobile Application Testing</li>
+              <li>Created Deliverable Package for Easy External Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>May 2016 - Aug. 2016</p>
+            <div class="h5">Amerisure Insurance</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Software Development Intern</div>
+            <ul>
+              <li>Develop ASP.NET MVC Applications for Internal Network</li>
+              <li>Manage Database Writing Procedures Using SQL</li>
+              <li>Create Application for Employee Peer Acknowledgement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>May 2014 - Aug. 2014</p>
+            <div class="h5">Around Campus Group</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Sales Representative</div>
+            <ul>
+              <li>Sold Advertising in University Publications and Mobile App to Local Businesses</li>
+              <li>Made Sales Calls, Researched Business Demographics, and Collaborated with Team on Marketing Strategies</li>
+              <li>Achieved Highest Average Sales in Region</li>
+              <li>Trained on the Sales Process at the University of North Carolina</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Portfolio -->
-      <div class="wrapper style3">
-        <article id="portfolio">
-          <header>
-            <h2>Here are some of the things I've been up to recently.</h2>
-            <p>These are some things that I have done for class or on my own.</p>
-          </header>
-          <div class="container">
+  </div>
+</div>
+<div class="section" id="education">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title time-color-inverse-color">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2013 - 2018</p>
+            <div class="h5">University of Michigan</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Computer Science</div>
+            <p class="category">Bachelor of Science</p>
+            <ul>
+              <li>Brother of Triangle Fraternity</li>
+              <li>MHacks (Hackathon)</li>
+              <li>Member of Greek Life Sustainability Team (GLiST)</li>
+              <li>Dance Marathon at the University of Michigan (DMUM)</li>
+              <li>Intramural Basketball</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2009 - 2013</p>
+            <div class="h5">Bachelor's Degree</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Bachelor of Computer Science</div>
+            <p class="category">University of Computer Science</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2007 - 2009</p>
+            <div class="h5">High School</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Science and Mathematics</div>
+            <p class="category">School of Secondary board</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+<!-- <div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title time-color-inverse-color">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <div class="row">
-              <!-- <div class="4u">
-                <article class="box style2">
-                  <span class="icon featured fa-calendar"></span>
-                  <h3><a href="https://umichwebschedulizer.herokuapp.com/">Web Schedulizer</a></h3>
-                  <p>In my Elementary Programming class our final project was to create an online resource for students to plan out and schedule classes.</p>
-                </article>
-              </div> -->
-              <div class="4u">
-                <article class="box style2">
-                  <span class="icon featured fa-gamepad"></span>
-                  <h3><a href="http://www-personal.umich.edu/~arexroth/eecs493-tower-defense/">Tower Defense Game</a></h3>
-                  <p>Created a simple Tower Defense game similar to Bloons using AngularJS and JQuery.</p>
-                </article>
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
               </div>
-              <div class="4u">
-                <article class="box style2">
-                  <span class="icon featured fa-circle"></span>
-                  <h3><a href="http://www-personal.umich.edu/~arexroth/WebBuild/">Roll-A-Ball Unity Game</a></h3>
-                  <p>Game built to showcase basic Unity experience. Object is to collect "coins" with rolling ball.</p>
-                </article>
-              </div>
-              <div class="4u">
-                <article class="box style2">
-                  <span class="icon featured fa-clock-o"></span>
-                  <h3>Time to Color</h3>
-                  <p>Javascript function converts the time into Hexidecimal number for the color of components on this webpage.</p>
-                </article>
-              </div>
-              <!-- <div class="4u">
-                <article class="box style2">
-                  <span class="icon featured fa-desktop"></span>
-                  <h3><a href="https://github.com/bubbleboy333/EECS280_Euchre">Euchre C++ Program</a></h3>
-                  <p>For my Programming and Data Structures class I wrote the code for a Euchre program that allows both Human and Computer players.</p>
-                </article>
-              </div> -->
-            </div>
-            <!--
-            <div class="row">
-              <div class="4u">
-                <article class="box style2">
-                  <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                  <h3><a href="#">Tempus dolore</a></h3>
-                  <p>Ornare nulla proin odio consequat.</p>
-                </article>
-              </div>
-              <div class="4u">
-                <article class="box style2">
-                  <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-                  <h3><a href="#">Feugiat aliquam</a></h3>
-                  <p>Ornare nulla proin odio consequat.</p>
-                </article>
-              </div>
-              <div class="4u">
-                <article class="box style2">
-                  <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-                  <h3><a href="#">Sed amet ornare</a></h3>
-                  <p>Ornare nulla proin odio consequat.</p>
-                </article>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
               </div>
             </div>
           </div>
-          -->
-          <footer>
-            <a href="#contact" class="button big scrolly">Get in touch with me</a>
-          </footer>
-        </article>
-      </div>
-
-    <!-- Contact -->
-      <div class="wrapper style4">
-        <article id="contact" class="container 75%">
-          <header>
-            <h2>Any comments or questions?</h2>
-            <p>Feel free to contact me.</p>
-          </header>
-          <div>
+          <div class="carousel-item">
             <div class="row">
-                  <div class="3u">&nbsp;</div>
-                  <div class="6u">
-                    <!-- Contacts -->
-                    <section class="footer-two">
-                      <div class="feature-list feature-list-small">
-                        <div>
-                          <div class="row">
-                            <div class="12u">
-                              <section>
-                                <h3 class="fa fa-envelope">Email</h3>
-                                <p>arexroth [at] umich [dot] edu</p>
-                              </section>
-                            </div>
-                            <!-- <div class="6u">
-                              <section>
-                                <h3 class="fa fa-phone">Phone</h3>
-                                <p>(248) 631-6614</p>
-                              </section>
-                            </div> -->
-                          </div>
-                          <div class="row">
-                            <!-- <div class="6u">
-                              <section>
-                                <h3 class="fa fa-home">Mailing Address</h3>
-                                <p>
-                                  1501 Washtenaw Ave.<br/>
-                                  Ann Arbor, MI 48104
-                                </p>
-                              </section>
-                            </div> -->
-                            <div class="12u">
-                              <section>
-                                <ul class="social">
-                                  <h3 class="fa fa-comment">Social</h3><br/>
-                                    <li><a href="https://www.facebook.com/andrew.rexroth.37" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                    <li><a href="https://www.linkedin.com/pub/andrew-rexroth/ab/910/39a/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                    <li><a href="https://github.com/bubbleboy333" class="icon fa-github"><span class="label">Github</span></a></li>
-                                </ul>
-                              </section>
-                            </div>
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="section" id="contact">
+  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form action="https://formspree.io/your@email.com" method="POST">
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
                           </div>
                         </div>
                       </div>
-                    </section>
-            <!--  <div class="row">
-              <div class="12u">
-                <form method="post" action="#">
-                  <div>
-                    <div class="row">
-                      <div class="6u">
-                        <input type="text" name="name" id="name" placeholder="Name" />
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
                       </div>
-                      <div class="6u">
-                        <input type="text" name="email" id="email" placeholder="Email" />
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="12u">
-                        <input type="text" name="subject" id="subject" placeholder="Subject" />
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row">
-                      <div class="12u">
-                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row 200%">
-                      <div class="12u">
-                        <ul class="actions">
-                          <li><input type="submit" value="Send Message" /></li>
-                          <li><input type="reset" value="Clear Form" class="alt" /></li>
-                        </ul>
-                      </div>
-                    </div>
+                    </form>
                   </div>
-                </form>
-              </div>
-            </div>  -->
-
-            <!--
-            <div class="row">
-              <div class="12u">
-                <hr />
-                <h3>Find me on ...</h3>
-                <ul class="social">
-                  <li><a href="https://www.facebook.com/andrew.rexroth.37" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                  <li><a href="https://www.linkedin.com/pub/andrew-rexroth/ab/910/39a/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-
-
-                  <li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-                  <li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-                  <li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-                  <li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-                  <li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-                  <li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-                  <li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-                  <li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-                  <li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-                  <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                  <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-                  <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-                  <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                  <li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-
-                </ul>
-                <hr />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="pb-2">140, City Center, New York, U.S.A</p>
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">+1718-111-0011</p>
+                    <p class="mb-0"><strong>Email</strong></p>
+                    <p>anthony@company.com</p>
+                  </div>
+                </div>
               </div>
             </div>
-            -->
           </div>
-          <footer>
-            <ul id="copyright">
-              <li>&copy;2022 -- Andrew Rexroth</li>
-              <li></li>
-              <!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-            </ul>
-          </footer>
-        </article>
+        </div>
       </div>
+    </div>
+  </div>
+</div> -->
 
+</div>
+    </div>
+    <footer class="footer" id="footer">
+      <div class="h4 text-center mb-4 title time-color-inverse-color">Contact</div>
+      <div class="row text-center">
+        <div class="col">
+          <div class="card-body time-color-inverse-color">
+            <p class="mb-0"><strong>Phone</strong></p>
+            <p class="pb-2">(248) 631-6614</p>
+            <p class="mb-0"><strong>Email</strong></p>
+            <p>arexroth [at] umich [dot] edu</p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/andrew-rexroth/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-github btn btn-link" href="https://github.com/bubbleboy333"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-facebook btn btn-link" href="https://www.facebook.com/andrew.rexroth.37"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-instagram btn btn-link" href="https://www.instagram.com/bubbleboy333/"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a>
+      </div>
+      <div class="h4 title text-center time-color-inverse-color">Andrew Rexroth</div>
+      <div class="text-center text-muted">
+        <p>&copy; 2022. All rights reserved.<br>
+          <!-- Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a> -->
+        </p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="js/time2color.js"></script>
+    <script src="js/extra.js"></script>
   </body>
 </html>

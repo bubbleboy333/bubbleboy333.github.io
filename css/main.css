@@ -2053,7 +2053,8 @@ textarea.form-control {
     background: #378C3F; }
   .progress-container.progress-primary .progress-value,
   .progress-container.progress-primary .progress-badge {
-    color: #378C3F; }
+    color: #282828; 
+  }
   .progress-container.progress-info .progress {
     background: rgba(44, 168, 255, 0.3); }
   .progress-container.progress-info .progress-bar {
